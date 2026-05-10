@@ -1,0 +1,224 @@
+/* =========================
+   Gruvbox Compact Waybar
+   ========================= */
+
+* {
+    border: none;
+    border-radius: 0;
+
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 11px;
+
+    min-height: 0;
+}
+
+/* =========================
+   Main Bar
+   ========================= */
+
+#waybar {
+    background: rgba(29, 32, 33, 0.82);
+
+    color: #ebdbb2;
+
+    border-radius: 14px;
+
+    margin: 6px 10px 0 10px;
+}
+
+/* =========================
+   Tooltip
+   ========================= */
+
+tooltip {
+    background: #282828;
+
+    border: 2px solid #504945;
+    border-radius: 10px;
+}
+
+tooltip label {
+    color: #ebdbb2;
+}
+
+/* =========================
+   Shared Modules
+   ========================= */
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#network,
+#wireplumber,
+#bluetooth,
+#tray,
+#backlight,
+#window,
+#custom-launcher,
+#custom-power {
+    background: #282828;
+
+    color: #ebdbb2;
+
+    padding: 2px 9px;
+    margin: 4px 3px;
+
+    border-radius: 9px;
+}
+
+/* =========================
+   Workspaces
+   ========================= */
+
+#workspaces {
+    background: transparent;
+
+    margin: 4px 2px;
+}
+
+#workspaces button {
+    color: #a89984;
+
+    padding: 1px 7px;
+    margin: 0 2px;
+
+    border-radius: 7px;
+
+    min-width: 18px;
+}
+
+#workspaces button.active {
+    background: #d79921;
+
+    color: #1d2021;
+}
+
+#workspaces button.urgent {
+    background: #fb4934;
+
+    color: #fbf1c7;
+}
+
+/* =========================
+   Hover
+   ========================= */
+
+#clock:hover,
+#battery:hover,
+#cpu:hover,
+#memory:hover,
+#temperature:hover,
+#network:hover,
+#wireplumber:hover,
+#bluetooth:hover,
+#tray:hover,
+#backlight:hover,
+#custom-launcher:hover,
+#custom-power:hover,
+#workspaces button:hover {
+    background: #3c3836;
+
+    transition: 0.15s;
+}
+
+/* =========================
+   Window Title
+   ========================= */
+
+#window {
+    color: #d5c4a1;
+
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* =========================
+   Clock
+   ========================= */
+
+#clock {
+    background: #d79921;
+
+    color: #1d2021;
+
+    font-weight: bold;
+}
+
+/* =========================
+   Audio
+   ========================= */
+
+#wireplumber.muted {
+    color: #fb4934;
+}
+
+/* =========================
+   Network
+   ========================= */
+
+#network.disconnected {
+    color: #fb4934;
+}
+
+/* =========================
+   Battery
+   ========================= */
+
+#battery.warning {
+    color: #fabd2f;
+}
+
+#battery.critical {
+    color: #fb4934;
+}
+
+/* =========================
+   Tray
+   ========================= */
+
+#tray {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* separa os ícones da tray */
+
+#tray > .passive {
+    margin: 0 3px;
+}
+
+#tray > .active {
+    margin: 0 3px;
+}
+
+/* =========================
+   Launcher
+   ========================= */
+
+#custom-launcher {
+    background: #d79921;
+
+    color: #1d2021;
+
+    font-size: 14px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* =========================
+   Power Button
+   ========================= */
+
+#custom-power {
+    background: #fb4934;
+
+    color: #fbf1c7;
+
+    padding-left: 11px;
+    padding-right: 11px;
+
+    margin-left: 6px;
+}

@@ -1,0 +1,67 @@
+# Apply gtk theming
+exec_always ~/.config/sway/scripts/import-gsettings
+
+# =========================
+# Gruvbox Theme
+# =========================
+
+# Gaps entre janelas
+gaps inner 12
+gaps outer 6
+
+# Bordas
+default_border pixel 2
+default_floating_border pixel 2
+
+# Não esconder bordas
+hide_edge_borders none
+
+# Fonte
+font pango:JetBrainsMono Nerd Font 10
+
+# Bordas inteligentes
+smart_borders off
+
+# =========================
+# Wallpaper
+# =========================
+
+exec swaybg -i /home/eric/.config/sway/wallpapers/shougan_castle.png -m fill
+
+# =========================
+# Window Titles
+# =========================
+
+for_window [shell="xdg_shell"] title_format "%title"
+for_window [shell="x_wayland"] title_format "%class"
+
+# =========================
+# Gruvbox Colors
+# =========================
+
+# class                 border  background text    indicator child_border
+client.focused          #d79921 #282828   #ebdbb2 #d79921   #d79921
+client.focused_inactive #665c54 #1d2021   #a89984 #665c54   #665c54
+client.unfocused        #504945 #1d2021   #928374 #504945   #504945
+client.urgent           #cc241d #282828   #fbf1c7 #cc241d   #cc241d
+
+# =========================
+# Floating Windows
+# =========================
+
+floating_modifier Mod4
+
+# =========================
+# Animations fake/smooth feel
+# =========================
+
+focus_follows_mouse yes
+mouse_warping none
+
+# =========================
+# Status Bar
+# =========================
+
+bar {
+    swaybar_command waybar
+}
