@@ -71,6 +71,25 @@ Principais componentes:
 <img src="assets/foto4.png" width="100%">
 
 ---
+## Keybindings
+
+| Atalho | Ação |
+|---|---|
+| `SUPER + Enter` | Abrir terminal |
+| `SUPER + D` | Abrir launcher |
+| `SUPER + Shift + D` | Abrir menu |
+| `SUPER + Q` | Fechar janela |
+| `SUPER + F` | Fullscreen |
+| `SUPER + Space` | Toggle floating |
+| `SUPER + E` | Abrir explorador de arquivos |
+| `SUPER + B` | Abrir navegador |
+| `SUPER + C` | Abrir calculadora |
+| `SUPER + 1-0` | Alternar workspaces |
+| `SUPER + Shift + 1-0` | Mover janela para workspace |
+| `Print` | Screenshot de seleção |
+| `Ctrl + Print` | Screenshot da janela |
+| `Shift + Print` | Screenshot do monitor |
+| `SUPER + Shift + Q` | Fechar Sway |
 
 ## Objetivo
 
