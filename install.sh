@@ -18,7 +18,7 @@ YELLOW="\033[1;33m"
 CYAN="\033[1;36m"
 NC="\033[0m"
 
-REPO="https://github.com/harilvfs/swaydotfiles"
+REPO="https://github.com/EricDev-cb/sway-config-ubuntu"
 DOTFILES_DIR="$HOME/swaydotfiles"
 BACKUP_DIR="$HOME/.config.backup.$(date +%s)"
 
