@@ -28,7 +28,7 @@ Rice/configuração do SwayWM adaptada para Ubuntu/Debian.
 ## Instalação
 
 ```bash
-git https://github.com/EricDev-cb/sway-config-ubuntu.git
+git clone https://github.com/EricDev-cb/sway-config-ubuntu.git
 cd sway-config-ubuntu
 chmod +x install.sh
 ./install.sh
